@@ -11,4 +11,10 @@ EndeavourOS for WSL - EASY INSTALL AND SETUP FOR WINDOWS 11 - Endeavour - Start 
 
 Download EndeavourOS for WSL here: https://github.com/vinberg88/EndeavourOS/releases
 
-How to install KDE via Endeavour OS: 
+# How to install KDE 6 - EndeavourOS
+
+How to install KDE via Endeavour: https://github.com/vinberg88/EndeavourOS/blob/main/EndeavourOS-KDE6.txt
+
+Movie via YOUTUBE for KDE 6 Install: Comming SONE.
+
+
