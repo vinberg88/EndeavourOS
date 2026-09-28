@@ -17,4 +17,13 @@ How to install KDE via Endeavour: https://github.com/vinberg88/EndeavourOS/blob/
 
 Movie via YOUTUBE for KDE 6 Install: Comming SONE.
 
+<p align="center">
+<a href="https://github.com/vinberg88/EndeavourOS/blob/main/EndeavourOS-KDE6.txt">
+<img width="1920" height="1080" alt="EndeavourOS-KDE6" src="https://github.com/user-attachments/assets/3c31e798-1325-4f64-9aef-f44e0645a00b" />
+</p>
 
+--- 
+
+# More Comming SONE for WSL and EndeavourOS - 2026
+
+---
