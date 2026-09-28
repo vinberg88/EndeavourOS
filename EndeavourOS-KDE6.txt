@@ -1,0 +1,329 @@
+EndeavourOS and KDE PLASMA 6 - How to install KDE 6 via Endeavour OS and Windows 11 - WSL - 2026
+
+How to install KDE PLASMA 6 via EndeavourOS / Endeavour via Windows 11 - TEXT via GITHUB
+Comming SONE..
+
+How to install KDE PLASMA 6 via EndeavourOS / Endeavour via Windows 11 - MOVIE via YOUTUBE
+Comming SONE..
+
+Download EndeavourOS for WSL here via github - https://github.com/vinberg88/EndeavourOS
+
+Tools for WSL and Microsoft - 2026 - EndeavourOS and KDE 6
+
+Raft WSL is a powerful tool for managing Windows Subsystem for Linux distributions.
+https://apps.microsoft.com/detail/9msmjqd017x7?hl=en-US&gl=US
+
+Use X410 - X Server for Windows 11 and it works well.
+https://apps.microsoft.com/detail/9pm8lp83g3l3?hl=en-US&gl=US
+
+WSL UI - This tool is free and works like Raft WSL
+https://apps.microsoft.com/detail/9p8548knj2m9?hl=sv-SE&gl=SE
+
+                     ./o.                   OS: EndeavourOS for WSL (community prototype) x86_64
+                   ./sssso-                 
+                 `:osssssss+-               EndeavourOS For WSL - KDE PLASMA 6.7.0 FOR WSL - 2026
+               `:+sssssssssso/.             
+             `-/ossssssssssssso/.           Host: Windows Subsystem for Linux - EndeavourOS-WSL (2.9.13.0)
+           `-/+sssssssssssssssso+:`         
+         `-:/+sssssssssssssssssso+/.        Kernel: Linux 6.18.40.1-microsoft-standard-WSL2
+       `.://osssssssssssssssssssso++-       
+      .://+ssssssssssssssssssssssso++:      OS: Windows 11 Pro for Workstations (25H2) x86_64 - Host: ROG Strix
+    .:///ossssssssssssssssssssssssso++:     
+  `:////ssssssssssssssssssssssssssso+++.    Download EndeavourOS for WSL - https://github.com/vinberg88/EndeavourOS
+`-////+ssssssssssssssssssssssssssso++++-    
+ `..-+oosssssssssssssssssssssssso+++++/`    Diffrent dekstops for WSL - https://github.com/vinberg88
+   ./++++++++++++++++++++++++++++++/:.      
+  `:::::::::::::::::::::::::------``        MEDIA MATTIAS VINBERG - SWEDEN - STOCKHOLM - 2026
+
+
+
+About EndeavourOS - https://endeavouros.com
+
+EndeavourOS is an Arch-based distro that provides an Arch 
+experience without the hassle of installing it manually for
+x86_64 and ARM devices. After installation, you’re provided
+with a lightweight and almost bare-bones environment ready to
+be explored with your terminal, along with our home-built
+Welcome App as a powerful guide to help you along.
+
+About KDE PLASMA 6 - https://kde.org
+
+Plasma is a Desktop - Use Plasma to surf the
+web; keep in touch with colleagues, friends and family; manage your
+files, enjoy music and videos; and get creative and productive at work.
+Do it all in a beautiful environment that adapts to your needs, and
+with the safety, privacy-protection and peace of mind that the best
+Free Open Source Software has to offer.
+
+Find More Stuff for WSL here. Diffrent desktops for WSL and Windows 11 - 2026
+
+https://github.com/vinberg88/opensuse or https://github.com/vinberg88
+
+WSL desktop and Linux via YouTUBE - https://www.youtube.com/@mattiasvinberg
+
+Info Page for WSL: https://vinberg88.github.io
+
+-------------------------
+
+Update All via terminal for EndeavourOS after INSTALL.
+
+sudo pacman-key --init
+sudo pacman-key --populate archlinux
+sudo pacman -Syu
+
+sudo pacman -S wget curl git
+
+wget -q -O chaotic-AUR-installer.bash https://raw.githubusercontent.com/SharafatKarim/chaotic-AUR-installer/main/install.bash && sudo bash chaotic-AUR-installer.bash && rm chaotic-AUR-installer.bash
+
+------------------------------------------------------------
+
+Paste in terminal: sudo nano /etc/pacman.conf
+
+Replace Misc Options for EndeavourOS
+
+# Misc options
+#UseSyslog
+Color
+ParallelDownloads = 20
+ILoveCandy
+#TotalDownload
+#CheckSpace
+VerbosePkgLists
+
+add this to repos - look down in file.
+
+[multilib]
+Include = /etc/pacman.d/mirrorlist
+
+------------------------------------------------------------
+
+                     ./o.                   OS: EndeavourOS for WSL (community prototype) x86_64
+                   ./sssso-                 
+                 `:osssssss+-               EndeavourOS For WSL - KDE PLASMA 6.7.0 FOR WSL - 2026
+               `:+sssssssssso/.             
+             `-/ossssssssssssso/.           Host: Windows Subsystem for Linux - EndeavourOS-WSL (2.9.13.0)
+           `-/+sssssssssssssssso+:`         
+         `-:/+sssssssssssssssssso+/.        Kernel: Linux 6.18.40.1-microsoft-standard-WSL2
+       `.://osssssssssssssssssssso++-       
+      .://+ssssssssssssssssssssssso++:      OS: Windows 11 Pro for Workstations (25H2) x86_64 - Host: ROG Strix
+    .:///ossssssssssssssssssssssssso++:     
+  `:////ssssssssssssssssssssssssssso+++.    Download EndeavourOS for WSL - https://github.com/vinberg88/EndeavourOS
+`-////+ssssssssssssssssssssssssssso++++-    
+ `..-+oosssssssssssssssssssssssso+++++/`    Diffrent dekstops for WSL - https://github.com/vinberg88
+   ./++++++++++++++++++++++++++++++/:.      
+  `:::::::::::::::::::::::::------``        MEDIA MATTIAS VINBERG - SWEDEN - STOCKHOLM - 2026
+
+------------------------------------------------------------
+
+Update all - new repos =) EndeavourOS -  Endeavour OS
+
+sudo pacman -Syu
+
+------------------------------------------------------------
+
+Install Some Programs for EndeavourOS - 2026
+
+yay -S bash git npm wget curl dialog go fakeroot dbus ibus networkmanager glxinfo
+
+yay -S xorg xorg-server xorg-xinit mesa xterm xorg-twm xorg-xrandr xterm xorg-xclock sddm
+
+yay -S bluedevil libqtxdg xorg-xfontsel xorg-xlsfonts xorg-xkill xorg-xinput xorg-xwininfo
+
+yay -S xorg-xinit mesa xterm xorg-twm xorg-xrandr 
+
+yay -S xorg-twm xterm xorg-xclock libqtxdg 
+
+yay -S xorg-xinit xorg-xrandr xorg-xfontsel xorg-xlsfonts xorg-xkill xorg-xinput xorg-xwininfo 
+
+------------------------------------------------------------
+
+Copy and paste in terminal for EndeavourOS - 2026 - KDE 6 - Endeavour OS
+
+sudo systemctl enable sddm
+sudo systemctl set-default graphical
+sudo systemctl enable sddm.service
+
+------------------------------------------------------------
+
+Time To install KDE PLASMA 6 for - EndeavourOS - 2026
+
+sudo pacman -S plasma-meta kde-applications-meta plasma
+
+----------------------------------------------
+
+Install Hyfetch to see where we are =]
+
+yay -S hyfetch fastfetch
+
+Test by type thie in Bash after install: hyfetch
+
+                     ./o.                   OS: EndeavourOS for WSL (community prototype) x86_64
+                   ./sssso-                 
+                 `:osssssss+-               EndeavourOS For WSL - KDE PLASMA 6.7.0 FOR WSL - 2026
+               `:+sssssssssso/.             
+             `-/ossssssssssssso/.           Host: Windows Subsystem for Linux - EndeavourOS-WSL (2.9.13.0)
+           `-/+sssssssssssssssso+:`         
+         `-:/+sssssssssssssssssso+/.        Kernel: Linux 6.18.40.1-microsoft-standard-WSL2
+       `.://osssssssssssssssssssso++-       
+      .://+ssssssssssssssssssssssso++:      OS: Windows 11 Pro for Workstations (25H2) x86_64 - Host: ROG Strix
+    .:///ossssssssssssssssssssssssso++:     
+  `:////ssssssssssssssssssssssssssso+++.    Download EndeavourOS for WSL - https://github.com/vinberg88/EndeavourOS
+`-////+ssssssssssssssssssssssssssso++++-    
+ `..-+oosssssssssssssssssssssssso+++++/`    Diffrent dekstops for WSL - https://github.com/vinberg88
+   ./++++++++++++++++++++++++++++++/:.      
+  `:::::::::::::::::::::::::------``        MEDIA MATTIAS VINBERG - SWEDEN - STOCKHOLM - 2026
+                                            
+----------------------------------------------------------------
+
+Install Google Chrome for - EndeavourOS - Endeavour - KDE PLASMA 6
+
+yay -S google-chrome
+
+----------------------------------------------------------------
+
+Install Blanket - Listen to sounds - EndeavourOS - Endeavour - KDE PLASMA 6
+
+yay -S blanket
+
+---------------------------------------------------------
+
+Install Gimp - LibreOffice - Code - EndeavourOS - Endeavour - KDE PLASMA 6
+
+yay -S gimp 
+
+---------------------------------------------------------
+
+Install Libreoffice for EndeavourOS
+
+yay -S libreoffice
+
+---------------------------------------------------------
+
+Visual Studio Code from Microsoft - 2026
+
+yay -S code
+
+---------------------------------------------------------
+
+Install some Themes for - EndeavourOS and KDE PLASMA 6
+
+Catppuccin themes for KDE 6 and EndeavourOS
+
+yay -S unzip sassc gnome-shell
+
+git clone --depth=1 https://github.com/catppuccin/kde catppuccin-kde && cd catppuccin-kde
+
+Run the install script using ./install.sh and follow the instructions.
+
+THIS SCRIPT IS NOT FANCY BUT WORKS WELL FOR EndeavourOS and KDE 6
+
+---------------------------------------------------------
+
+Paste all in terminal - EndeavourOS - Endeavour - KDE PLASMA 6
+
+sudo systemctl set-default multi-user.target
+sudo systemctl set-default graphical.target
+sudo ln -fs /usr/lib/systemd/system/graphical.target /etc/systemd/system/default.target
+
+------------------------------------------------------
+
+                     ./o.                   OS: EndeavourOS for WSL (community prototype) x86_64
+                   ./sssso-                 
+                 `:osssssss+-               EndeavourOS For WSL - KDE PLASMA 6.7.0 FOR WSL - 2026
+               `:+sssssssssso/.             
+             `-/ossssssssssssso/.           Host: Windows Subsystem for Linux - EndeavourOS-WSL (2.9.13.0)
+           `-/+sssssssssssssssso+:`         
+         `-:/+sssssssssssssssssso+/.        Kernel: Linux 6.18.40.1-microsoft-standard-WSL2
+       `.://osssssssssssssssssssso++-       
+      .://+ssssssssssssssssssssssso++:      OS: Windows 11 Pro for Workstations (25H2) x86_64 - Host: ROG Strix
+    .:///ossssssssssssssssssssssssso++:     
+  `:////ssssssssssssssssssssssssssso+++.    Download EndeavourOS for WSL - https://github.com/vinberg88/EndeavourOS
+`-////+ssssssssssssssssssssssssssso++++-    
+ `..-+oosssssssssssssssssssssssso+++++/`    Diffrent dekstops for WSL - https://github.com/vinberg88
+   ./++++++++++++++++++++++++++++++/:.      
+  `:::::::::::::::::::::::::------``        MEDIA MATTIAS VINBERG - SWEDEN - STOCKHOLM - 2026
+
+------------------------------------------------------
+
+Fix IP problem for X410. Cant find screen problem. Look for ip adress in windows terminal / PowerShell: ipconfig
+
+OPEN POWERSHELL AND TYPE: ipconfig
+
+NOTE - Importent to look for ip. Last lines are IP-numbers for WSL in POWERSHELL so x410 works.
+
+SAVE IP ADRESS FOR WSL HERE: 172.30.16.1
+
+NOW GO BACK TO Endeavour OS Terminal and paste this.
+
+sudo systemctl unmask systemd-resolved.service
+sudo systemctl enable systemd-resolved.service
+
+sudo ls -l /etc/resolv.conf
+sudo mv /etc/resolv.conf /tmp/resolv.conf.bak
+sudo nano /etc/resolv.conf
+
+nameserver 172.30.16.1 <-- put your ip adress here for POWERSHELL and add nameserver.
+
+sudo chattr +i /etc/resolv.conf
+sudo systemctl restart systemd-resolved
+sudo cat /etc/resolv.conf
+
+DONE - alot of problem fixed Endeavour OS =]
+
+----------------------------------------------
+
+       EndeavourOS and KDE PLASMA 6 for WSL
+
+Type this in terminal and put your user there - sudo loginctl enable-linger adolf
+
+----------------------------------------------
+
+Install start script for Endeavour OS and KDE 6
+
+yay -S plasma-x11-session kwin-x11
+
+wget -O install-kde6-x410-arch.sh \
+https://raw.githubusercontent.com/vinberg88/arch/main/install-kde6-x410-arch.sh
+
+chmod +x install-kde6-x410-arch.sh
+
+./install-kde6-x410-arch.sh
+
+----------------------------------------------------------------
+
+Reboot Endeavour OS - Reboot Linux - Reboot Linux - Reboot Linux - Endeavour - EndeavourOS - KDE 6
+
+----------------------------------------------------------------
+
+Time to start KDE PLASMA 6 via EndeavourOS. First start X410 then you start Endeavour OS via terminal - Done =]
+
+
+Copy and Paste in Console: export DISPLAY=$(cat /etc/resolv.conf | grep nameserver | awk '{print $2; exit;}'):0.0
+
+Copy and Paste in Console: dbus-launch kde6-x410 start
+
+
+IT WILL TAKE SOME TIME TO START - JUST WAIT - KDE PLASMA 6 via Endeavour OS - 2026
+
+----------------------------------------------------------------
+
+                     ./o.                   OS: EndeavourOS for WSL (community prototype) x86_64
+                   ./sssso-                 
+                 `:osssssss+-               EndeavourOS For WSL - KDE PLASMA 6.7.0 FOR WSL - 2026
+               `:+sssssssssso/.             
+             `-/ossssssssssssso/.           Host: Windows Subsystem for Linux - EndeavourOS-WSL (2.9.13.0)
+           `-/+sssssssssssssssso+:`         
+         `-:/+sssssssssssssssssso+/.        Kernel: Linux 6.18.40.1-microsoft-standard-WSL2
+       `.://osssssssssssssssssssso++-       
+      .://+ssssssssssssssssssssssso++:      OS: Windows 11 Pro for Workstations (25H2) x86_64 - Host: ROG Strix
+    .:///ossssssssssssssssssssssssso++:     
+  `:////ssssssssssssssssssssssssssso+++.    Download EndeavourOS for WSL - https://github.com/vinberg88/EndeavourOS
+`-////+ssssssssssssssssssssssssssso++++-    
+ `..-+oosssssssssssssssssssssssso+++++/`    Diffrent dekstops for WSL - https://github.com/vinberg88
+   ./++++++++++++++++++++++++++++++/:.      
+  `:::::::::::::::::::::::::------``        MEDIA MATTIAS VINBERG - SWEDEN - STOCKHOLM - 2026
+
+
+Regards Mattias Vinberg - Endeavour OS - Linux - KDE PLASMA 6 - WSL - Sweden - X410 - Windows 11 - EndeavourOS - 2026
+
+----------------------------------------------------------------
