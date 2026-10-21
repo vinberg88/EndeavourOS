@@ -1,7 +1,7 @@
 EndeavourOS and KDE PLASMA 6 - How to install KDE 6 via Endeavour OS and Windows 11 - WSL - 2026
 
 How to install KDE PLASMA 6 via EndeavourOS / Endeavour via Windows 11 - TEXT via GITHUB
-Comming SONE..
+https://github.com/vinberg88/EndeavourOS/blob/main/EndeavourOS-KDE6.txt
 
 How to install KDE PLASMA 6 via EndeavourOS / Endeavour via Windows 11 - MOVIE via YOUTUBE
 Comming SONE..
